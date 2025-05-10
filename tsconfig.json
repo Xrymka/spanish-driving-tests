@@ -3,15 +3,15 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+      "@/*": ["./*"]
+    },
+    "jsx": "react-native",            // обязательно для React Native
+    "allowJs": true,                  // если в проекте остались .js-файлы
+    "resolveJsonModule": true,       // для импорта .json файлов, как test1.json
+    "esModuleInterop": true          // для корректного импорта библиотек
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.tsx"
   ]
 }

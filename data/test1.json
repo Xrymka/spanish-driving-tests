@@ -1,0 +1,50 @@
+{
+  "testNumber": 1,
+  "source": "exam",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Does alcohol influence stopping distance?",
+      "options": [
+        "Yes, it decreases it.",
+        "Yes, it increases it.",
+        "No, stopping distance only depends on speed."
+      ],
+      "correct": 1,
+      "image": "images/test1/q1.jpg"
+    },
+    {
+      "id": 2,
+      "question": "Driving on a road frequented by pedestrians, especially children or the elderly, what should we do?",
+      "options": [
+        "Reduce speed, even coming to a stop.",
+        "Take necessary precautions without necessarily slowing down.",
+        "Reduce speed, without stopping."
+      ],
+      "correct": 0,
+      "image": "images/test1/q2.jpg"
+    },
+    {
+      "id": 3,
+      "question": "Can bicycles tow a trailer?",
+      "options": [
+        "Yes, under specific conditions.",
+        "Yes, always.",
+        "No."
+      ],
+      "correct": 0,
+      "image": "images/test1/q3.jpg"
+    },
+    {
+      "id": 4,
+      "question": "Is it recommended to maintain the speed indicated by the sign even if road and traffic conditions are favorable?",
+      "options": [
+        "Yes.",
+        "No, if conditions are favorable, the recommendation doesn’t apply.",
+        "No, it’s mandatory to follow the indicated speed."
+      ],
+      "correct": 0,
+      "image": "images/test1/q4.jpg"
+    }
+  ]
+}
